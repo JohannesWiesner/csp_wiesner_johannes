@@ -43,4 +43,5 @@ dependencies:
   - abagen
   - clustergrammer
   - nisupply
+  - sysrsync
   - lckr-jupyterlab-variableinspector

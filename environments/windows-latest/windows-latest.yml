@@ -45,3 +45,4 @@ dependencies:
   - abagen
   - clustergrammer
   - nisupply
+  - sysrsync

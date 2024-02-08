@@ -14,7 +14,8 @@ littleutils==0.2.2
 llvmlite==0.42.0
 munkres==1.1.4
 network-control==0.0.5
-NiMARE==0.2.1
+nilearn==0.10.2
+NiMARE==0.2.2
 nisupply==1.0.0
 nlopt==2.7.1
 numba==0.59.0
@@ -24,9 +25,10 @@ PyMARE==0.0.4rc2
 PyQt5==5.15.9
 PyQt5-sip==12.12.2
 PyQtWebEngine==5.15.4
-seaborn==0.13.2
+ridgeplot==0.1.23
 simplegeneric==0.8.1
 sparse==0.15.1
 sympy==1.12
+sysrsync==1.1.1
 tensorly==0.8.1
 tzdata==2023.4

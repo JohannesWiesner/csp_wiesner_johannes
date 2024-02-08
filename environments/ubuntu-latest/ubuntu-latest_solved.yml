@@ -40,7 +40,7 @@ dependencies:
   - bwidget=1.9.14=ha770c72_1
   - bzip2=1.0.8=hd590300_5
   - c-ares=1.26.0=hd590300_0
-  - c-blosc2=2.13.1=hb4ffafa_0
+  - c-blosc2=2.13.2=hb4ffafa_0
   - ca-certificates=2024.2.2=hbcca054_0
   - cached-property=1.5.2=hd8ed1ab_1
   - cached_property=1.5.2=pyha770c72_1
@@ -82,7 +82,7 @@ dependencies:
   - fastcluster=1.2.6=py39hddac248_3
   - fasteners=0.17.3=pyhd8ed1ab_0
   - filelock=3.13.1=pyhd8ed1ab_0
-  - flake8=6.1.0=pyhd8ed1ab_0
+  - flake8=7.0.0=pyhd8ed1ab_0
   - font-ttf-dejavu-sans-mono=2.37=hab24e00_0
   - font-ttf-inconsolata=3.000=h77eed37_0
   - font-ttf-source-code-pro=2.038=h77eed37_0
@@ -138,14 +138,14 @@ dependencies:
   - inflection=0.5.1=pyh9f0ad1d_0
   - interface_meta=1.3.0=pyhd8ed1ab_0
   - intervaltree=3.1.0=pyhd8ed1ab_1
-  - ipykernel=6.29.1=pyhd33586a_0
+  - ipykernel=6.29.2=pyhd33586a_0
   - ipyparallel=8.6.1=pyhd8ed1ab_0
   - ipython=8.18.1=pyh707e725_3
   - iso8601=2.1.0=pyhd8ed1ab_0
   - isodate=0.6.1=pyhd8ed1ab_0
   - isoduration=20.11.0=pyhd8ed1ab_0
   - isort=5.13.2=pyhd8ed1ab_0
-  - jaraco.classes=3.3.0=pyhd8ed1ab_0
+  - jaraco.classes=3.3.1=pyhd8ed1ab_0
   - jedi=0.19.1=pyhd8ed1ab_0
   - jeepney=0.8.0=pyhd8ed1ab_0
   - jellyfish=1.0.3=py39h9fdd4d6_0
@@ -179,7 +179,7 @@ dependencies:
   - lerc=4.0.0=h27087fc_0
   - libaec=1.1.2=h59595ed_1
   - libassuan=2.5.6=h59595ed_0
-  - libavif16=1.0.3=h1dcd450_2
+  - libavif16=1.0.3=h1dcd450_3
   - libblas=3.9.0=21_linux64_openblas
   - libbrotlicommon=1.1.0=hd590300_1
   - libbrotlidec=1.1.0=hd590300_1
@@ -274,15 +274,14 @@ dependencies:
   - mysql-common=8.0.33=hf1915f5_6
   - mysql-libs=8.0.33=hca2cd23_6
   - nbclient=0.8.0=pyhd8ed1ab_0
-  - nbconvert=7.15.0=pyhd8ed1ab_0
-  - nbconvert-core=7.15.0=pyhd8ed1ab_0
-  - nbconvert-pandoc=7.15.0=pyhd8ed1ab_0
+  - nbconvert=7.16.0=pyhd8ed1ab_0
+  - nbconvert-core=7.16.0=pyhd8ed1ab_0
+  - nbconvert-pandoc=7.16.0=pyhd8ed1ab_0
   - nbformat=5.9.2=pyhd8ed1ab_0
   - ncurses=6.4=h59595ed_2
   - nest-asyncio=1.6.0=pyhd8ed1ab_0
   - networkx=3.2.1=pyhd8ed1ab_0
   - nibabel=5.2.0=pyha770c72_0
-  - nilearn=0.10.3=pyhd8ed1ab_0
   - nipype=1.8.6=py39hf3d152e_0
   - nlopt=2.7.1=py39h74f0fd2_4
   - nodejs=20.9.0=hb753e55_0
@@ -344,7 +343,7 @@ dependencies:
   - pyct=0.5.0=pyhd8ed1ab_0
   - pydocstyle=6.3.0=pyhd8ed1ab_0
   - pydot=2.0.0=py39hf3d152e_0
-  - pyflakes=3.1.0=pyhd8ed1ab_0
+  - pyflakes=3.2.0=pyhd8ed1ab_0
   - pygments=2.17.2=pyhd8ed1ab_0
   - pylint=3.0.3=pyhd8ed1ab_0
   - pylint-venv=3.0.3=pyhd8ed1ab_0
@@ -363,8 +362,8 @@ dependencies:
   - python-json-logger=2.0.7=pyhd8ed1ab_0
   - python-lsp-black=2.0.0=pyhd8ed1ab_0
   - python-lsp-jsonrpc=1.1.2=pyhd8ed1ab_0
-  - python-lsp-server=1.9.0=pyhd8ed1ab_0
-  - python-lsp-server-base=1.9.0=pyhd8ed1ab_0
+  - python-lsp-server=1.10.0=pyhd8ed1ab_0
+  - python-lsp-server-base=1.10.0=pyhd8ed1ab_0
   - python-slugify=8.0.3=pyhd8ed1ab_0
   - python_abi=3.9=4_cp39
   - pytoolconfig=1.2.5=pyhd8ed1ab_0
@@ -623,6 +622,8 @@ dependencies:
   - scikit-image=0.22.0=py39hddac248_2
   - scikit-learn=1.4.0=py39ha22ef79_0
   - scipy=1.12.0=py39h474f0d3_2
+  - seaborn=0.11.2=hd8ed1ab_0
+  - seaborn-base=0.11.2=pyhd8ed1ab_0
   - secretstorage=3.3.3=py39hf3d152e_2
   - sed=4.8=he412f7d_0
   - send2trash=1.8.2=pyh41d4057_0
@@ -643,7 +644,7 @@ dependencies:
   - sphinxcontrib-jsmath=1.0.1=pyhd8ed1ab_0
   - sphinxcontrib-qthelp=1.0.7=pyhd8ed1ab_0
   - sphinxcontrib-serializinghtml=1.1.10=pyhd8ed1ab_0
-  - spyder=5.5.0=py39hf3d152e_3
+  - spyder=5.5.1=py39hf3d152e_0
   - spyder-kernels=2.5.0=unix_pyhd8ed1ab_0
   - sqlalchemy=2.0.25=py39hd1e30aa_0
   - sqlite=3.44.2=h2c6b66d_0
@@ -681,7 +682,7 @@ dependencies:
   - unicodedata2=15.1.0=py39hd1e30aa_0
   - uri-template=1.3.0=pyhd8ed1ab_0
   - urllib3=2.2.0=pyhd8ed1ab_0
-  - watchdog=3.0.0=py39hf3d152e_1
+  - watchdog=4.0.0=py39hf3d152e_0
   - wcwidth=0.2.13=pyhd8ed1ab_0
   - webcolors=1.13=pyhd8ed1ab_0
   - webencodings=0.5.1=pyhd8ed1ab_2
@@ -747,13 +748,15 @@ dependencies:
       - lckr-jupyterlab-variableinspector==3.2.1
       - llvmlite==0.42.0
       - network-control==0.0.5
-      - nimare==0.2.1
+      - nilearn==0.10.2
+      - nimare==0.2.2
       - nisupply==1.0.0
       - numba==0.59.0
       - pandas==2.2.0
       - pymare==0.0.4rc2
-      - seaborn==0.13.2
+      - ridgeplot==0.1.23
       - sparse==0.15.1
       - sympy==1.12
+      - sysrsync==1.1.1
       - tensorly==0.8.1
       - tzdata==2023.4
