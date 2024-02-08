@@ -3,7 +3,6 @@ channels:
 - conda-forge
 - pyviz
 - plotly
-- r
 - ejolly
 - bokeh
 - defaults
@@ -33,7 +32,6 @@ dependencies:
 - jupyterlab
 - r-base
 - r-reticulate
-- rtools
 - pip
 - pip:
   - nimare
@@ -46,3 +44,4 @@ dependencies:
   - clustergrammer
   - nisupply
   - sysrsync
+  - pytest

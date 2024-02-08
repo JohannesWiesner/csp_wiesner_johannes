@@ -1,6 +1,5 @@
 name: windows-latest
 channels:
-  - r
   - conda-forge
 dependencies:
   - 7zip=19.00=h2d74725_2
@@ -378,7 +377,6 @@ dependencies:
   - r-zip=2.3.1=r41h6d2157b_0
   - r-zoo=1.8_12=r41h6d2157b_1
   - rav1e=0.6.6=h975169c_2
-  - rtools=3.4.0=0
   - seaborn-base=0.11.2=pyhd8ed1ab_0
   - snappy=1.1.10=hfb803bf_0
   - stack_data=0.6.2=pyhd8ed1ab_0
@@ -499,6 +497,7 @@ dependencies:
       - importlib-metadata==7.0.1
       - importlib-resources==6.1.1
       - inflection==0.5.1
+      - iniconfig==2.0.0
       - interface-meta==1.3.0
       - intervaltree==3.1.0
       - ipykernel==6.29.2
@@ -618,6 +617,7 @@ dependencies:
       - pyqt5-sip==12.12.2
       - pyqtwebengine==5.15.4
       - pysocks==1.7.1
+      - pytest==8.0.0
       - python-dateutil==2.8.2
       - python-gitlab==4.4.0
       - python-json-logger==2.0.7

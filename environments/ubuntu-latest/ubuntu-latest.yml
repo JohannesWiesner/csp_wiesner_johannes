@@ -44,4 +44,5 @@ dependencies:
   - clustergrammer
   - nisupply
   - sysrsync
+  - pytest
   - lckr-jupyterlab-variableinspector
