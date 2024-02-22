@@ -57,3 +57,4 @@ scikit-image		conda install -c conda-forge scikit-image	conda	conda-forge	statis
 sysrsync		pip install sysrsync	pip		io	https://github.com/gchamon/sysrsync	required	Let’s you use rsync via python		Python	
 pytest		pip install pytest	pip		development	https://docs.pytest.org/en/7.1.x/index.html	required	Let’s you write tests in python		Python	
 atlasreader		pip install atlasreader	pip		plotting	https://github.com/miykael/atlasreader	optional	Provides a Python interface for generating coordinate tables and region labels from statistical MRI images		Python	
+psmpy		pip install psmpy	pip		statistical modelling	https://pypi.org/project/psmpy/#description	required	Propensity Score matching in python		Python	
