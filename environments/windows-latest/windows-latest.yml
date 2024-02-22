@@ -45,3 +45,4 @@ dependencies:
   - nisupply
   - sysrsync
   - pytest
+  - psmpy
