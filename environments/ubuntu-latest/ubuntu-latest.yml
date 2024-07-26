@@ -45,5 +45,6 @@ dependencies:
   - nisupply
   - sysrsync
   - pytest
+  - atlasreader
   - psmpy
   - lckr-jupyterlab-variableinspector

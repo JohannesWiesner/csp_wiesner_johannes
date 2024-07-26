@@ -45,4 +45,5 @@ dependencies:
   - nisupply
   - sysrsync
   - pytest
+  - atlasreader
   - psmpy
