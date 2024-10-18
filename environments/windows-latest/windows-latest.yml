@@ -21,6 +21,10 @@ dependencies:
 - oct2py
 - pybids
 - scikit-image
+- mne-connectivity
+- python-kaleido
+- pydicom
+- pyreadstat
 - pymer4
 - plotly-orca
 - plotly
@@ -47,3 +51,4 @@ dependencies:
   - pytest
   - atlasreader
   - psmpy
+  - brainsmash
