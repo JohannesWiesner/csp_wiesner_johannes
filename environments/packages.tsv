@@ -59,7 +59,7 @@ pytest		pip install pytest	pip		development	https://docs.pytest.org/en/7.1.x/ind
 atlasreader		pip install atlasreader	pip		plotting	https://github.com/miykael/atlasreader	required	Provides a Python interface for generating coordinate tables and region labels from statistical MRI images		Python	
 psmpy		pip install psmpy	pip		statistical modelling	https://pypi.org/project/psmpy/#description	required	Propensity Score matching in python		Python	
 mne-connectivity		conda install -c conda-forge mne-connectivity	conda	conda-forge	plotting	https://mne.tools/mne-connectivity/stable/index.html	required	Used for plotting connectograms		Python	
-kaleido		conda install -c conda-forge kaleido-python 	conda	conda-forge	dependency	https://github.com/plotly/Kaleido	required	Needed so that plotly can export plots as static files (png, svg, etc)		Python	
+kaleido		conda install -c conda-forge python-kaleido	conda	conda-forge	dependency	https://github.com/plotly/Kaleido	required	Needed so that plotly can export plots as static files (png, svg, etc)		Python	
 brainsmash		pip install brainsmash	pip		statistical modelling	https://brainsmash.readthedocs.io/en/latest/installation.html	required	Generates null models for statistical tests		Python	
 pydicom		conda install -c conda-forge pydicom	conda	conda-forge	data wrangling	https://github.com/pydicom/pydicom	required	Allows you to read in DICOM files		Python	
 pyreadstat		conda install -c conda-forge pyreadstat	conda	conda-forge	data wrangling	https://github.com/Roche/pyreadstat	required	Allows you to read in SPSS data files		Python	
