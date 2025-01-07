@@ -52,7 +52,7 @@ tableone		conda install -c conda-forge tableone	conda	conda-forge	data wrangling
 abagen		pip install abagen	pip		statistical modelling	https://abagen.readthedocs.io/en/stable/installation.html	required	abagen lets you get information about gene receptor densities using the Allen Human Brain Atlas and a custom atlas of your choice		Python	
 atlasreader		pip install atlasreader	pip		plotting	https://github.com/miykael/atlasreader	required	Provides a Python interface for generating coordinate tables and region labels from statistical MRI images		Python	
 bctpy		conda install -c conda-forge bctpy	conda	conda-forge	statistical modelling	https://github.com/aestrivex/bctpy	required	A library that allows you to compute all sorts of topological measures on connectivity matrices		Python	
-brainsmash		pip install brainsmash	pip		statistical modelling	https://brainsmash.readthedocs.io/en/latest/installation.html	required	Generates null models for statistical tests		Python	
+brainsmash		pip install brainsmash	pip		statistical modelling	https://brainsmash.readthedocs.io/en/latest/installation.html	optional	Generates null models for statistical tests		Python	
 brainspace		pip install brainspace	pip		neuroimaging	https://brainspace.readthedocs.io/en/latest/pages/getting_started.html	required	For Gradient Analyses		Python	
 cca-zoo		pip install cca-zoo	pip		statistical modelling	https://cca-zoo.readthedocs.io/en/latest/index.html	required	implementing canonical correlation analysis in python		Python	
 clustergrammer		pip install clustergrammer	pip		plotting	https://clustergrammer.readthedocs.io/clustergrammer_py.html	required	Let’s you create interactive clustermaps		Python	
