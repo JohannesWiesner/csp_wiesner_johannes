@@ -66,3 +66,4 @@ sysrsync		pip install sysrsync	pip		io	https://github.com/gchamon/sysrsync	requi
 openneuro-py		conda install -c conda-forge openneuro-py	conda	conda-forge	data wrangling	https://github.com/hoechenberger/openneuro-py	required	Allows you to download open neuro datasets via python		Python	
 brainspace		pip install brainspace	pip		neuroimaging	https://brainspace.readthedocs.io/en/latest/pages/getting_started.html	required	For Gradient Analyses		Python	
 openpyxl		conda install -c conda-forge openpyxl	conda	conda-forge	io	https://openpyxl.readthedocs.io/en/stable/	required	A Python library to read/write Excel 2010 xlsx/xlsm files		Python	
+neuromaps		pip install neuromaps	pip		neuroimaging	https://netneurolab.github.io/neuromaps/	required	To create spatial null models		Python	
