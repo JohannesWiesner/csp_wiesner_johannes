@@ -64,3 +64,4 @@ psmpy		pip install psmpy	pip		statistical modelling	https://pypi.org/project/psm
 pytest		pip install pytest	pip		development	https://docs.pytest.org/en/7.1.x/index.html	required	Let’s you write tests in python		Python	
 sysrsync		pip install sysrsync	pip		io	https://github.com/gchamon/sysrsync	required	Let’s you use rsync via python		Python	
 openneuro-py		conda install -c conda-forge openneuro-py	conda	conda-forge	data wrangling	https://github.com/hoechenberger/openneuro-py	required	Allows you to download open neuro datasets via python		Python	
+brainspace		pip install brainspace	pip		neuroimaging	https://brainspace.readthedocs.io/en/latest/pages/getting_started.html	required	For Gradient Analyses		Python	
