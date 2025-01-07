@@ -8,47 +8,49 @@ channels:
 - defaults
 dependencies:
 - bokeh
-- python<3.10
+- bctpy
 - datalad
-- tableone
-- spyder
-- scikit-learn
+- distro
+- fastcluster
+- mne-connectivity
 - nilearn
 - nipype
-- statannotations
-- fastcluster
-- pingouin
 - oct2py
+- openneuro-py
+- openpyxl
+- pingouin
 - pybids
-- scikit-image
-- mne-connectivity
-- python-kaleido
 - pydicom
 - pyreadstat
+- python
+- python-kaleido
+- scikit-image
+- scikit-learn
+- spyder
+- tableone
 - pymer4
-- plotly-orca
 - plotly
+- plotly-orca
 - holoviews
 - hvplot
-- r-essentials
-- r-repr
-- r-devtools
 - jupyterlab
 - r-base
+- r-devtools
+- r-essentials
+- r-repr
 - r-reticulate
 - pip
 - pip:
-  - nimare
-  - network_control
-  - cca-zoo
-  - bctpy
-  - gower
-  - distro
   - abagen
-  - clustergrammer
-  - nisupply
-  - sysrsync
-  - pytest
   - atlasreader
+  - brainspace
+  - cca-zoo
+  - clustergrammer
+  - gower
+  - network_control
+  - neuromaps
+  - nimare
+  - nisupply
   - psmpy
-  - brainsmash
+  - pytest
+  - sysrsync
