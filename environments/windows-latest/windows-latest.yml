@@ -55,3 +55,4 @@ dependencies:
   - psmpy
   - pytest
   - sysrsync
+  - templateflow
