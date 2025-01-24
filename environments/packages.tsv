@@ -67,3 +67,4 @@ nisupply		pip install nisupply	pip		data wrangling	https://github.com/JohannesWi
 psmpy		pip install psmpy	pip		statistical modelling	https://pypi.org/project/psmpy/#description	required	Propensity Score matching in python		Python	
 pytest		pip install pytest	pip		development	https://docs.pytest.org/en/7.1.x/index.html	required	Let’s you write tests in python		Python	
 sysrsync		pip install sysrsync	pip		io	https://github.com/gchamon/sysrsync	required	Let’s you use rsync via python		Python	
+templateflow		pip install templateflow	pip		neuroimaging	https://www.templateflow.org/	required	Let’s you download atlases and templates for your neuroimaging analysis		Python	
