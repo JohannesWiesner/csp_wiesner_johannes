@@ -11,6 +11,7 @@ dependencies:
   - aom=3.9.1=he0c23c2_0
   - backports=1.0=pyhd8ed1ab_5
   - backports.tarfile=1.2.0=pyhd8ed1ab_1
+  - bleach-with-css=6.2.0=h82add2a_4
   - blosc=1.21.6=hfd34d9b_1
   - brotli-bin=1.1.0=h2466b09_2
   - brotli-python=1.1.0=py312h275cf98_2
@@ -34,7 +35,7 @@ dependencies:
   - fonts-conda-forge=1=0
   - freetype=2.12.1=hdaf720e_2
   - fribidi=1.0.10=h8d14728_0
-  - fzf=0.57.0=h86e1c39_0
+  - fzf=0.58.0=h86e1c39_0
   - getopt-win32=0.1=hcfcfb64_1
   - giflib=5.2.2=h64bf75a_0
   - glib=2.80.2=h0df6a38_0
@@ -76,7 +77,7 @@ dependencies:
   - libbrotlidec=1.1.0=h2466b09_2
   - libbrotlienc=1.1.0=h2466b09_2
   - libcblas=3.9.0=26_win64_mkl
-  - libclang13=19.1.6=default_ha5278ca_0
+  - libclang13=19.1.7=default_ha5278ca_0
   - libcurl=8.11.1=h88aaa65_0
   - libdeflate=1.23=h9062f6e_0
   - libexpat=2.6.4=he0c23c2_0
@@ -95,10 +96,10 @@ dependencies:
   - liblzma=5.6.3=h2466b09_1
   - libnetcdf=4.9.2=nompi_h5bdc103_116
   - libogg=1.3.5=h2466b09_0
-  - libpng=1.6.44=h3ca93ac_0
+  - libpng=1.6.45=had7236b_0
   - libsodium=1.0.20=hc70643c_0
   - libspatialindex=2.1.0=h518811d_0
-  - libsqlite=3.47.2=h67fdade_0
+  - libsqlite=3.48.0=h67fdade_1
   - libssh2=1.11.1=he619c9f_0
   - libtiff=4.7.0=h797046b_3
   - libvorbis=1.3.7=h0e60522_0
@@ -146,12 +147,12 @@ dependencies:
   - mathjax=2.7.7=h57928b3_3
   - matplotlib-base=3.10.0=py312h90004f6_0
   - mkl=2024.2.2=h66d3029_15
-  - mne-base=1.9.0=pyh694c41f_200
+  - mne-base=1.9.0=pyh694c41f_201
   - msgpack-python=1.1.0=py312hd5eb7cc_0
   - msys2-conda-epoch=20160418=1
   - mypy_extensions=1.0.0=pyha770c72_1
-  - nbconvert-core=7.16.5=pyhd8ed1ab_0
-  - nbconvert-pandoc=7.16.5=hd8ed1ab_0
+  - nbconvert-core=7.16.5=pyhd8ed1ab_1
+  - nbconvert-pandoc=7.16.5=hd8ed1ab_1
   - nodejs=20.18.1=hfeaa22a_0
   - octave_kernel=0.36.0=pyhd8ed1ab_1
   - openjpeg=2.5.3=h4d64b90_0
@@ -172,9 +173,9 @@ dependencies:
   - python-gssapi=1.9.0=py312h2afa726_1
   - python-kaleido=0.2.1=pyhd8ed1ab_0
   - python-lsp-server-base=1.12.0=pyhd8ed1ab_1
-  - python-tzdata=2024.2=pyhd8ed1ab_1
+  - python-tzdata=2025.1=pyhd8ed1ab_0
   - python_abi=3.12=5_cp312
-  - pyviz_comms=3.0.3=pyhd8ed1ab_0
+  - pyviz_comms=3.0.4=pyhd8ed1ab_1
   - pywin32-on-windows=0.1.0=pyh07e9846_2
   - qhull=2020.2=hc790b64_5
   - qt-main=5.15.8=h06adc49_22
@@ -415,9 +416,9 @@ dependencies:
   - typing_utils=0.1.0=pyhd8ed1ab_1
   - ucrt=10.0.22621.0=h57928b3_1
   - universal_pathlib=0.2.6=pyhd8ed1ab_0
-  - vc=14.3=ha32ba9b_23
-  - vc14_runtime=14.42.34433=he29a5d6_23
-  - vs2015_runtime=14.42.34433=hdffcdeb_23
+  - vc=14.3=h5fd82a7_24
+  - vc14_runtime=14.42.34433=h6356254_24
+  - vs2015_runtime=14.42.34433=hfef2bbc_24
   - win_inet_pton=1.1.0=pyh7428d3b_8
   - winpty=0.4.3=4
   - xorg-kbproto=1.0.7=hcd874cb_1002
@@ -469,8 +470,8 @@ dependencies:
       - black==24.10.0
       - bleach==6.2.0
       - bokeh==3.6.2
-      - boto3==1.35.92
-      - botocore==1.35.92
+      - boto3==1.36.4
+      - botocore==1.36.4
       - brainspace==0.1.17
       - brotli==1.1.0
       - cached-property==1.5.2
@@ -482,7 +483,7 @@ dependencies:
       - charset-normalizer==3.4.1
       - ci-info==0.3.0
       - click==8.1.8
-      - cloudpickle==3.1.0
+      - cloudpickle==3.1.1
       - clustergrammer==1.13.6
       - cognitiveatlas==0.1.11
       - colorama==0.4.6
@@ -493,7 +494,7 @@ dependencies:
       - cryptography==44.0.0
       - cycler==0.12.1
       - datalad==1.1.4
-      - debugpy==1.8.11
+      - debugpy==1.8.12
       - decorator==5.1.1
       - defusedxml==0.7.1
       - deprecated==1.2.15
@@ -512,9 +513,9 @@ dependencies:
       - fastcluster==1.2.6
       - fasteners==0.19
       - fastjsonschema==2.21.1
-      - filelock==3.16.1
+      - filelock==3.17.0
       - flake8==7.1.1
-      - fonttools==4.55.3
+      - fonttools==4.55.4
       - formulaic==0.5.2
       - fqdn==1.5.1
       - frozenlist==1.5.0
@@ -531,17 +532,17 @@ dependencies:
       - h5netcdf==1.4.1
       - h5py==3.12.1
       - holoviews==1.20.0
-      - hpack==4.0.0
+      - hpack==4.1.0
       - httpcore==1.0.7
       - httpx==0.28.1
       - humanize==4.11.0
       - hvplot==0.11.2
-      - hyperframe==6.0.1
+      - hyperframe==6.1.0
       - idna==3.10
-      - imagecodecs==2024.9.22
+      - imagecodecs==2024.12.30
       - imageio==2.36.1
       - imagesize==1.4.1
-      - importlib-metadata==8.5.0
+      - importlib-metadata==8.6.1
       - importlib-resources==6.5.2
       - inflection==0.5.1
       - iniconfig==2.0.0
@@ -578,11 +579,11 @@ dependencies:
       - kaleido==0.2.1
       - keyring==25.6.0
       - keyrings-alt==5.0.2
-      - kiwisolver==1.4.7
+      - kiwisolver==1.4.8
       - lazy-loader==0.4
       - linkify-it-py==2.0.3
       - littleutils==0.0.0
-      - llvmlite==0.43.0
+      - llvmlite==0.44.0
       - looseversion==1.3.0
       - lxml==5.3.0
       - markdown==3.6
@@ -597,7 +598,7 @@ dependencies:
       - mistune==3.1.0
       - mne==1.9.0
       - mne-connectivity==0.7.0
-      - more-itertools==10.5.0
+      - more-itertools==10.6.0
       - mpmath==1.3.0
       - msgpack==1.1.0
       - multidict==6.1.0
@@ -619,7 +620,7 @@ dependencies:
       - notebook==7.3.2
       - notebook-shim==0.2.4
       - num2words==0.5.12
-      - numba==0.60.0
+      - numba==0.61.0
       - numpy==1.26.4
       - numpydoc==1.8.0
       - oct2py==5.8.0
@@ -651,7 +652,7 @@ dependencies:
       - pooch==1.8.2
       - portalocker==3.0.0
       - prometheus-client==0.21.1
-      - prompt-toolkit==3.0.48
+      - prompt-toolkit==3.0.50
       - propcache==0.2.1
       - prov==2.0.0
       - psmpy==0.3.13
@@ -665,7 +666,7 @@ dependencies:
       - pycparser==2.22
       - pydicom==3.0.1
       - pydocstyle==6.3.0
-      - pydot==3.0.3
+      - pydot==3.0.4
       - pyflakes==3.2.0
       - pygithub==2.5.0
       - pygments==2.19.1
@@ -676,7 +677,7 @@ dependencies:
       - pymare==0.0.8
       - pymer4==0.8.2
       - pynacl==1.5.0
-      - pyopenssl==24.3.0
+      - pyopenssl==25.0.0
       - pyparsing==3.2.1
       - pyqt5==5.15.9
       - pyqt5-sip==12.12.2
@@ -685,7 +686,7 @@ dependencies:
       - pysocks==1.7.1
       - pytest==8.3.4
       - python-dateutil==2.9.0.post0
-      - python-gitlab==5.3.0
+      - python-gitlab==5.3.1
       - python-json-logger==2.0.7
       - python-lsp-black==2.0.0
       - python-lsp-jsonrpc==1.1.2
@@ -694,7 +695,7 @@ dependencies:
       - pytoolconfig==1.2.5
       - pytz==2024.1
       - pyuca==1.2
-      - pyviz-comms==3.0.3
+      - pyviz-comms==3.0.4
       - pywavelets==1.8.0
       - pywin32==307
       - pywin32-ctypes==0.2.3
@@ -706,8 +707,8 @@ dependencies:
       - qtawesome==1.3.1
       - qtconsole==5.6.1
       - qtpy==2.4.2
-      - rdflib==7.1.1
-      - referencing==0.35.1
+      - rdflib==7.1.3
+      - referencing==0.36.1
       - requests==2.32.3
       - requests-ftp==0.3.1
       - requests-toolbelt==1.0.0
@@ -719,13 +720,13 @@ dependencies:
       - rpds-py==0.22.3
       - rpy2==3.5.11
       - rtree==1.3.0
-      - s3transfer==0.10.4
+      - s3transfer==0.11.1
       - scikit-image==0.25.0
-      - scikit-learn==1.6.0
+      - scikit-learn==1.6.1
       - scipy==1.12.0
       - seaborn==0.13.2
       - send2trash==1.8.3
-      - setuptools==75.6.0
+      - setuptools==75.8.0
       - sgqlc==16.4
       - shellingham==1.5.4
       - simplegeneric==0.8.1
@@ -736,7 +737,7 @@ dependencies:
       - snowballstemmer==2.2.0
       - sortedcontainers==2.4.0
       - soupsieve==2.5
-      - sparse==0.15.4
+      - sparse==0.15.5
       - sphinx==8.1.3
       - sphinxcontrib-applehelp==2.0.0
       - sphinxcontrib-devhelp==2.0.0
@@ -746,8 +747,9 @@ dependencies:
       - sphinxcontrib-serializinghtml==1.1.10
       - spyder==6.0.3
       - spyder-kernels==3.0.2
-      - sqlalchemy==2.0.36
+      - sqlalchemy==2.0.37
       - stack-data==0.6.3
+      - statannotations==0.7.1
       - statsmodels==0.14.4
       - superqt==0.7.0
       - sympy==1.13.3
@@ -761,7 +763,7 @@ dependencies:
       - textdistance==4.6.3
       - threadpoolctl==3.5.0
       - three-merge==0.1.1
-      - tifffile==2024.12.12
+      - tifffile==2025.1.10
       - tinycss2==1.4.0
       - toml==0.10.2
       - tomli==2.2.1
@@ -775,11 +777,11 @@ dependencies:
       - types-python-dateutil==2.9.0.20241206
       - typing-extensions==4.12.2
       - typing-utils==0.1.0
-      - tzdata==2024.2
+      - tzdata==2025.1
       - tzlocal==5.2
       - uc-micro-py==1.0.3
       - ujson==5.10.0
-      - unicodedata2==15.1.0
+      - unicodedata2==16.0.0
       - universal-pathlib==0.2.6
       - uri-template==1.3.0
       - urllib3==2.3.0
@@ -793,10 +795,10 @@ dependencies:
       - wheel==0.45.1
       - whoosh==2.7.4
       - win-inet-pton==1.1.0
-      - wrapt==1.17.0
-      - xarray==2025.1.0
+      - wrapt==1.17.2
+      - xarray==2025.1.1
       - xvfbwrapper==0.2.9
-      - xyzservices==2024.9.0
+      - xyzservices==2025.1.0
       - yapf==0.43.0
       - yarl==1.18.3
       - zipp==3.21.0

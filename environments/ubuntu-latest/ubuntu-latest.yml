@@ -27,6 +27,7 @@ dependencies:
 - scikit-image
 - scikit-learn
 - spyder
+- statannotations
 - tableone
 - pymer4
 - plotly
