@@ -42,6 +42,7 @@ dependencies:
 - r-reticulate
 - pip
 - pip:
+  - brainsmash
   - abagen
   - atlasreader
   - brainspace
@@ -56,3 +57,4 @@ dependencies:
   - pytest
   - sysrsync
   - templateflow
+  - ancpbids
