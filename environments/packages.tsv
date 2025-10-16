@@ -69,3 +69,4 @@ pytest		pip install pytest	pip		development	https://docs.pytest.org/en/7.1.x/ind
 sysrsync		pip install sysrsync	pip		io	https://github.com/gchamon/sysrsync	required	Let���s you use rsync via python		Python	
 templateflow		pip install templateflow	pip		neuroimaging	https://www.templateflow.org/	required	Let���s you download atlases and templates for your neuroimaging analysis		Python	
 ancpbids		pip install ancpbids	pip		neuroimaging	https://ancpbids.readthedocs.io/en/latest/installation.html	required	ancpBIDS is a faster alternative to pybids (especially when you want to read in large datasets on a network drive)		Python	
+polars		conda install -c conda-forge polars	conda		data wrangling	https://docs.pola.rs/	required	Alternative for pandas that is much faster in reading in large .csv files		Python	
