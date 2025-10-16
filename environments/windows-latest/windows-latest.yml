@@ -34,6 +34,7 @@ dependencies:
 - plotly-orca
 - holoviews
 - hvplot
+- polars
 - jupyterlab
 - r-base
 - r-devtools
