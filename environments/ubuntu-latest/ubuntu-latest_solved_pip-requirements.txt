@@ -9,7 +9,7 @@ cognitiveatlas==0.1.11
 commonmark==0.9.1
 fuzzywuzzy==0.18.0
 gower==0.1.2
-iniconfig==2.1.0
+iniconfig==2.3.0
 llvmlite==0.45.1
 matplotlib==3.10.7
 munkres==1.1.4
@@ -32,10 +32,10 @@ setuptools==80.9.0
 sparse==0.17.0
 sympy==1.14.0
 sysrsync==1.1.1
-templateflow==25.0.4
+templateflow==25.1.1
 tensorly==0.9.0
-typer==0.19.2
-typer-slim==0.19.2
+typer==0.20.0
+typer-slim==0.20.0
 vtk==9.3.1
 wheel==0.45.1
 zstandard==0.25.0

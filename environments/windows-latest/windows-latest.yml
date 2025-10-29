@@ -5,8 +5,10 @@ channels:
 - plotly
 - ejolly
 - bokeh
+- anaconda
 - defaults
 dependencies:
+- xmltodict
 - bokeh
 - bctpy
 - datalad
