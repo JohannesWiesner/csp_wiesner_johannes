@@ -37,6 +37,7 @@ dependencies:
 - holoviews
 - hvplot
 - polars
+- feature_engine
 - jupyterlab
 - r-base
 - r-devtools
